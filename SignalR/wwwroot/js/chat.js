@@ -1,11 +1,11 @@
 ﻿"use strict";
 
-var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+var connection = new signalR.HubConnectionBuilder().withUrl("/ChatHub").build();
 
 //Disable the send button until connection is established.
-document.getElementById("sendButton").disabled = true;
+/*document.getElementById("sendButton").disabled = true;*/
 
-connection.on("ReceiveMessage", function (user, message) {
+connection.on("ReceiveMessage", function (user, message,g) {
     var li = document.createElement("li");
     document.getElementById("messagesList").appendChild(li);
     // We can assign user-supplied strings to an element's textContent because it
@@ -51,10 +51,11 @@ document.getElementById("sendButton").addEventListener("click", function (event)
     var user = document.getElementById("userInput").value;
     var message = document.getElementById("messageInput").value;
 
-    connection.invoke("SendMessage", user, message).catch(function (err) {
+    connection.invoke("SendMessage", user, message,"g1").catch(function (err) {
         return console.error(err.toString());
     });
 
+    document.getElementById("messageInput").value = "";
     event.preventDefault();
 
 

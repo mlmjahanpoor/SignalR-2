@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Moslem jahanpoor\\source\\repos\\SignalR\\SignalR\\SignalR.csproj": {}
+    "D:\\Projects\\SignalR-2\\SignalR\\SignalR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Moslem jahanpoor\\source\\repos\\SignalR\\SignalR\\SignalR.csproj": {
+    "D:\\Projects\\SignalR-2\\SignalR\\SignalR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Moslem jahanpoor\\source\\repos\\SignalR\\SignalR\\SignalR.csproj",
+        "projectUniqueName": "D:\\Projects\\SignalR-2\\SignalR\\SignalR.csproj",
         "projectName": "SignalR",
-        "projectPath": "C:\\Users\\Moslem jahanpoor\\source\\repos\\SignalR\\SignalR\\SignalR.csproj",
-        "packagesPath": "C:\\Users\\Moslem jahanpoor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Moslem jahanpoor\\source\\repos\\SignalR\\SignalR\\obj\\",
+        "projectPath": "D:\\Projects\\SignalR-2\\SignalR\\SignalR.csproj",
+        "packagesPath": "C:\\Users\\Moslem\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SignalR-2\\SignalR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Moslem jahanpoor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Moslem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
